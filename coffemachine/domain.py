@@ -28,7 +28,8 @@ class CoffeeMachine:
                                                                        self.type_of_coffee.get(selected_coffee).get(
                                                                            "Cost")):
                             self.coffee_ingredients.subtractIngretients(self.type_of_coffee.get(selected_coffee))
-                            print(f"U heeft een {selected_coffee} gekocht")
+                            print(f"U heeft een {selected_coffee} gekocht voor{ self.type_of_coffee.get(selected_coffee).get(
+                                                                           "Cost")}")
                     else:
                         print("Sorry, we don't have enough ingredients")
                 else:
