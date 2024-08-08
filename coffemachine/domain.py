@@ -6,14 +6,7 @@ class CoffeeMachine:
 
     def __init__(self, ingredient, money):
         self.coffee_ingredients = ingredient
-        self.money_machine = Money_machine(money=money)
-
-    def input_counts(self):
-        quarter = int(input('Quaters '))
-        dimes = int(input('Dimes '))
-        nickles = int(input('Nicks '))
-        pennies = int(input('Pennies '))
-        self.money_machine.check(quarter, dimes, nickles, pennies)
+        self.money_machine = MoneyMachine(money=money)
 
     def start_coffee(self):
         running = True
@@ -31,7 +24,7 @@ class CoffeeMachine:
                         nickles = int(input('Nicks '))
                         pennies = int(input('Pennies '))
 
-                        if self.money_machine.pay_total_Customer_Money(
+                        if self.money_machine.pay_total_customer_money(
                                 self.type_of_coffee.get(selected_coffee).get("Cost")):
                             self.coffee_ingredients.subtractIngretients(self.type_of_coffee.get(selected_coffee))
                             print(f"U heeft een {selected_coffee} gekocht")
@@ -41,13 +34,13 @@ class CoffeeMachine:
                     print(f"Sorry {selected_coffee} is not available")
 
 
-class Money_machine:
+class MoneyMachine:
     type_of_count = {"quarters": 0.25, "dimes": 0.10, "nickles": 0.05, "pennies": 0.01}
 
     def __init__(self, money):
         self.money_vault = MoneyVault(money=money)
 
-    def pay_total_Customer_Money(self, quarter, dimes, nickles, pennies, to_pay_befrage):
+    def pay_total_customer_money(self, quarter, dimes, nickles, pennies, to_pay_befrage):
         tot = (quarter * self.type_of_count.get(quarter) + dimes * self.type_of_count.get(
             dimes) + nickles * self.type_of_count.get(nickles) + pennies * self.type_of_count.get(pennies))
         if (to_pay_befrage < tot):
