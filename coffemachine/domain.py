@@ -24,8 +24,9 @@ class CoffeeMachine:
                         nickles = int(input('Nicks '))
                         pennies = int(input('Pennies '))
 
-                        if self.money_machine.pay_total_customer_money(
-                                self.type_of_coffee.get(selected_coffee).get("Cost")):
+                        if self.money_machine.pay_total_customer_money(quarter, dimes, nickles, pennies,
+                                                                       self.type_of_coffee.get(selected_coffee).get(
+                                                                           "Cost")):
                             self.coffee_ingredients.subtractIngretients(self.type_of_coffee.get(selected_coffee))
                             print(f"U heeft een {selected_coffee} gekocht")
                     else:
@@ -41,8 +42,8 @@ class MoneyMachine:
         self.money_vault = MoneyVault(money=money)
 
     def pay_total_customer_money(self, quarter, dimes, nickles, pennies, to_pay_befrage):
-        tot = (quarter * self.type_of_count.get(quarter) + dimes * self.type_of_count.get(
-            dimes) + nickles * self.type_of_count.get(nickles) + pennies * self.type_of_count.get(pennies))
+        tot = (quarter * self.type_of_count.get("quarters") + dimes * self.type_of_count.get(
+            "dimes") + nickles * self.type_of_count.get("nickles") + pennies * self.type_of_count.get("pennies"))
         if (to_pay_befrage < tot):
             pass
         if (to_pay_befrage >= tot):
