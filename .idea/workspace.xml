@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d340eb-01b3-413c-b57a-8622388efd7a" name="Changes" comment="add coffeemachine">
-      <change afterPath="$PROJECT_DIR$/weather/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather/weather_data.csv" afterDir="false" />
+    <list default="true" id="a4d340eb-01b3-413c-b57a-8622388efd7a" name="Changes" comment="add">
+      <change afterPath="$PROJECT_DIR$/comprehesion/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snake/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snake/food.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snake/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snake/scoreboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snake/snake.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PythonSchool.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonSchool.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -52,9 +58,12 @@
   "keyToString": {
     "Python.main (1).executor": "Run",
     "Python.main (2).executor": "Run",
+    "Python.main (3).executor": "Run",
+    "Python.main (4).executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Benoit/PycharmProjects/OOP/snake",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -65,12 +74,16 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Benoit\PycharmProjects\OOP\snake" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\benoit\PycharmProjects\PythonSchool\weather" />
+      <recent name="C:\Users\Benoit\PycharmProjects\OOP\nato" />
+      <recent name="C:\Users\Benoit\PycharmProjects\OOP" />
       <recent name="C:\Users\Benoit\PycharmProjects\OOP\classefirst" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (2)">
+  <component name="RunManager" selected="Python.main (4)">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OOP" />
       <option name="ENV_FILES" value="" />
@@ -103,12 +116,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/weather" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/comprehesion" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/weather/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/comprehesion/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -117,8 +130,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="OOP" />
+    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonSchool" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,12 +139,58 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nato" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Benoit\PycharmProjects\OOP\classefirst\main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nato/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonSchool" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gui/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonSchool" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Quiz" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Quiz/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,7 +201,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (4)" />
+        <item itemvalue="Python.main (3)" />
         <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.main (1)" />
       </list>
     </recent_temporary>
@@ -164,7 +226,8 @@
       <option name="presentableId" value="Default" />
       <updated>1722874852125</updated>
       <workItem from="1722874853474" duration="22233000" />
-      <workItem from="1723134834390" duration="1117000" />
+      <workItem from="1723134834390" duration="1877000" />
+      <workItem from="1723179537331" duration="1865000" />
     </task>
     <task id="LOCAL-00001" summary="add coffeemachine">
       <option name="closed" value="true" />
@@ -222,7 +285,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723132882354</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add">
+      <option name="closed" value="true" />
+      <created>1723140603998</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1723140603998</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +301,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add coffeemachine" />
-    <option name="LAST_COMMIT_MESSAGE" value="add coffeemachine" />
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -255,12 +327,34 @@
           <line>45</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Quiz/model.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Quiz/model.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Quiz/model.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/comprehesion/main.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/OOP$main.coverage" NAME="main Coverage Results" MODIFIED="1723057111132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonSchool$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1723198725028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/weather" />
     <SUITE FILE_PATH="coverage/OOP$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1723129484237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/coffemachine" />
+    <SUITE FILE_PATH="coverage/OOP$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1723297695931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nato" />
+    <SUITE FILE_PATH="coverage/OOP$main__4_.coverage" NAME="main (4) Coverage Results" MODIFIED="1723372872129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui" />
+    <SUITE FILE_PATH="coverage/OOP$main.coverage" NAME="main Coverage Results" MODIFIED="1723226643016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Quiz" />
+    <SUITE FILE_PATH="coverage/OOP$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1723296885668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/comprehesion" />
   </component>
 </project>
