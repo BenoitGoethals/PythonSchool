@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4d340eb-01b3-413c-b57a-8622388efd7a" name="Changes" comment="add">
-      <change afterPath="$PROJECT_DIR$/PasswordManager/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PasswordManager/model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PasswordManager/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/PasswordManager/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,7 +222,7 @@
       <workItem from="1722874853474" duration="22233000" />
       <workItem from="1723134834390" duration="1877000" />
       <workItem from="1723179537331" duration="1865000" />
-      <workItem from="1723460601861" duration="8688000" />
+      <workItem from="1723460601861" duration="9688000" />
     </task>
     <task id="LOCAL-00001" summary="add coffeemachine">
       <option name="closed" value="true" />
@@ -297,7 +296,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723389931011</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add">
+      <option name="closed" value="true" />
+      <created>1723492720004</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1723492720004</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add">
+      <option name="closed" value="true" />
+      <created>1723492741480</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1723492741480</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,7 +368,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/PasswordManager/main.py</url>
-          <line>15</line>
+          <line>14</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
@@ -363,7 +378,7 @@
     <SUITE FILE_PATH="coverage/OOP$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1723129484237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/coffemachine" />
     <SUITE FILE_PATH="coverage/OOP$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1723297695931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nato" />
     <SUITE FILE_PATH="coverage/OOP$main__4_.coverage" NAME="main (4) Coverage Results" MODIFIED="1723372872129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui" />
-    <SUITE FILE_PATH="coverage/OOP$main__5_.coverage" NAME="main (5) Coverage Results" MODIFIED="1723492366277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PasswordManager" />
+    <SUITE FILE_PATH="coverage/OOP$main__5_.coverage" NAME="main (5) Coverage Results" MODIFIED="1723492679788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PasswordManager" />
     <SUITE FILE_PATH="coverage/OOP$main.coverage" NAME="main Coverage Results" MODIFIED="1723226643016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Quiz" />
     <SUITE FILE_PATH="coverage/OOP$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1723296885668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/comprehesion" />
   </component>
