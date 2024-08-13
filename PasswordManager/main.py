@@ -1,8 +1,8 @@
 import os
 import re
 import tkinter
+from asyncio import exceptions
 from tkinter import messagebox
-
 
 import pyperclip
 
@@ -20,22 +20,27 @@ def main_window():
     def check(s):
         pat = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,7}\b'
         if re.match(pat, s):
-           return True
+            return True
         else:
             return False
+
     def write_file():
         if not check(input_email.get()):
             messagebox.showinfo("Email Validated", "Email Not Validated")
             return
         if messagebox.askyesno('File Writing', 'Do you want to write your password?'):
-            if len(input_username.get())>0 and len(input_password.get())>0:
-                if not os.path.exists("pwd.txt"):
-                    with open("pwd.txt", "w") as file:
-                        file.write("username, email, pswd\n")
-                with open("pwd.txt", "a") as file:
-                    file.write(f"{input_username.get()}, {input_email.get()}, {input_password.get()}\n")
-            else:
+            if len(input_username.get()) <= 0 or len(input_password.get()) <= 0:
                 messagebox.showinfo("Password Manager", "Please enter your password and username")
+            else:
+                try:
+                    if not os.path.exists("pwd.txt"):
+                        with open("pwd.txt", "w") as file:
+                            file.write("username, email, pswd\n")
+                    with open("pwd.txt", "a") as file:
+                        file.write(f"{input_username.get()}, {input_email.get()}, {input_password.get()}\n")
+                except IOError:
+                    messagebox.showinfo("Error", "File Writing Failed")
+
     root = Tk()
     entry_text = tkinter.StringVar()
     root.geometry('500x500')
@@ -59,7 +64,7 @@ def main_window():
     input_password.grid(column=1, row=4)
     button_generate_password = Button(root, text='Generate Password', font=('Arial', 10), command=generate_password)
     button_generate_password.grid(column=2, row=4)
-    button_confirm_password = Button(root, text='Save', font=('Arial', 10),command=write_file)
+    button_confirm_password = Button(root, text='Save', font=('Arial', 10), command=write_file)
     button_confirm_password.grid(column=1, row=6)
     root.mainloop()
 
