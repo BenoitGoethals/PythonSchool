@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d340eb-01b3-413c-b57a-8622388efd7a" name="Changes" comment="add">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/doc/conf.py" afterDir="false" />
-    </list>
+    <list default="true" id="a4d340eb-01b3-413c-b57a-8622388efd7a" name="Changes" comment="add" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -200,7 +197,7 @@
       <workItem from="1726055371144" duration="3979000" />
       <workItem from="1726071410477" duration="8000" />
       <workItem from="1726897581021" duration="239000" />
-      <workItem from="1728477068348" duration="2911000" />
+      <workItem from="1728477068348" duration="3219000" />
     </task>
     <task id="LOCAL-00001" summary="add coffeemachine">
       <option name="closed" value="true" />
@@ -354,7 +351,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728479300597</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add">
+      <option name="closed" value="true" />
+      <created>1728480114938</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1728480114938</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
