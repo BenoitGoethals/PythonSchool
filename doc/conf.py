@@ -1,7 +1,7 @@
 import os
 import sys
 sys.path.insert(0, os.path.abspath('../PasswordManager'))
-
+sys.path.insert(0, os.path.abspath('../coffemachine'))
 project = 'school'
 copyright = '2023, redandgreen.co.uk'
 author = 'Ben'
