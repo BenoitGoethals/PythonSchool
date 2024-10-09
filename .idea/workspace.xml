@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4d340eb-01b3-413c-b57a-8622388efd7a" name="Changes" comment="add">
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/python-app.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/python-app.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +200,7 @@
       <workItem from="1726055371144" duration="3979000" />
       <workItem from="1726071410477" duration="8000" />
       <workItem from="1726897581021" duration="239000" />
-      <workItem from="1728477068348" duration="1473000" />
+      <workItem from="1728477068348" duration="1829000" />
     </task>
     <task id="LOCAL-00001" summary="add coffeemachine">
       <option name="closed" value="true" />
@@ -299,7 +298,31 @@
       <option name="project" value="LOCAL" />
       <updated>1728477838777</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add">
+      <option name="closed" value="true" />
+      <created>1728478580275</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1728478580275</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add">
+      <option name="closed" value="true" />
+      <created>1728478758058</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1728478758058</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add">
+      <option name="closed" value="true" />
+      <created>1728478844855</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1728478844855</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
