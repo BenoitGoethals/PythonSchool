@@ -1,10 +1,10 @@
 import os
 import sys
-sys.path.insert(0, os.path.abspath('../jl'))
+sys.path.insert(0, os.path.abspath('../PasswordManager'))
 
 project = 'school'
 copyright = '2023, redandgreen.co.uk'
-author = 'Mr Moo'
+author = 'Ben'
 release = '0.0.1'
 
 
