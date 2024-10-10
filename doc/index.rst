@@ -20,6 +20,8 @@ school documentation
    :maxdepth: 2
    :caption: Contents:
 
+   coffemachine
+   modules
 
 Indices and tables
 ==================
