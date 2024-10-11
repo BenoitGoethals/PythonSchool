@@ -1,0 +1,255 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>snake package &mdash; school 0.0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=d45e8c67"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="squirrel package" href="squirrel.html" />
+    <link rel="prev" title="nato package" href="nato.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            school
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="coffemachine.html">coffemachine package</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">PythonSchool</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="PasswordManager.html">PasswordManager package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="PwdManager.html">PwdManager package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Quiz.html">Quiz package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="classefirst.html">classefirst package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="coffemachine.html">coffemachine package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="comprehesion.html">comprehesion package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="decorators.html">decorators package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="firstprojects.html">firstprojects package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="flights.html">flights package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gui.html">gui package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mail.html">mail package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nato.html">nato package</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">snake package</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#submodules">Submodules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-snake.food">snake.food module</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#snake.food.Food"><code class="docutils literal notranslate"><span class="pre">Food</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#snake-main-module">snake.main module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-snake.scoreboard">snake.scoreboard module</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#snake.scoreboard.Scoreboard"><code class="docutils literal notranslate"><span class="pre">Scoreboard</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#module-snake.snake">snake.snake module</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#snake.snake.Snake"><code class="docutils literal notranslate"><span class="pre">Snake</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#module-snake">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="squirrel.html">squirrel package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="weather.html">weather package</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">school</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="modules.html">PythonSchool</a></li>
+      <li class="breadcrumb-item active">snake package</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/snake.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="snake-package">
+<h1>snake package<a class="headerlink" href="#snake-package" title="Link to this heading"></a></h1>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Link to this heading"></a></h2>
+</section>
+<section id="module-snake.food">
+<span id="snake-food-module"></span><h2>snake.food module<a class="headerlink" href="#module-snake.food" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="snake.food.Food">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">snake.food.</span></span><span class="sig-name descname"><span class="pre">Food</span></span><a class="reference internal" href="_modules/snake/food.html#Food"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#snake.food.Food" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Turtle</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="snake.food.Food.refresh">
+<span class="sig-name descname"><span class="pre">refresh</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/snake/food.html#Food.refresh"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#snake.food.Food.refresh" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="snake-main-module">
+<h2>snake.main module<a class="headerlink" href="#snake-main-module" title="Link to this heading"></a></h2>
+</section>
+<section id="module-snake.scoreboard">
+<span id="snake-scoreboard-module"></span><h2>snake.scoreboard module<a class="headerlink" href="#module-snake.scoreboard" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="snake.scoreboard.Scoreboard">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">snake.scoreboard.</span></span><span class="sig-name descname"><span class="pre">Scoreboard</span></span><a class="reference internal" href="_modules/snake/scoreboard.html#Scoreboard"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#snake.scoreboard.Scoreboard" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Turtle</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="snake.scoreboard.Scoreboard.increase_score">
+<span class="sig-name descname"><span class="pre">increase_score</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/snake/scoreboard.html#Scoreboard.increase_score"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#snake.scoreboard.Scoreboard.increase_score" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="snake.scoreboard.Scoreboard.reset">
+<span class="sig-name descname"><span class="pre">reset</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/snake/scoreboard.html#Scoreboard.reset"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#snake.scoreboard.Scoreboard.reset" title="Link to this definition"></a></dt>
+<dd><p>Delete the turtle’s drawings and restore its default values.</p>
+<p>No argument.</p>
+<p>Delete the turtle’s drawings from the screen, re-center the turtle
+and set variables to the default values.</p>
+<p>Example (for a Turtle instance named turtle):
+&gt;&gt;&gt; turtle.position()
+(0.00,-22.00)
+&gt;&gt;&gt; turtle.heading()
+100.0
+&gt;&gt;&gt; turtle.reset()
+&gt;&gt;&gt; turtle.position()
+(0.00,0.00)
+&gt;&gt;&gt; turtle.heading()
+0.0</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="snake.scoreboard.Scoreboard.update_scoreboard">
+<span class="sig-name descname"><span class="pre">update_scoreboard</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/snake/scoreboard.html#Scoreboard.update_scoreboard"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#snake.scoreboard.Scoreboard.update_scoreboard" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-snake.snake">
+<span id="snake-snake-module"></span><h2>snake.snake module<a class="headerlink" href="#module-snake.snake" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="snake.snake.Snake">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">snake.snake.</span></span><span class="sig-name descname"><span class="pre">Snake</span></span><a class="reference internal" href="_modules/snake/snake.html#Snake"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#snake.snake.Snake" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="snake.snake.Snake.add_segment">
+<span class="sig-name descname"><span class="pre">add_segment</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">position</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/snake/snake.html#Snake.add_segment"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#snake.snake.Snake.add_segment" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="snake.snake.Snake.create_snake">
+<span class="sig-name descname"><span class="pre">create_snake</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/snake/snake.html#Snake.create_snake"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#snake.snake.Snake.create_snake" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="snake.snake.Snake.down">
+<span class="sig-name descname"><span class="pre">down</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/snake/snake.html#Snake.down"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#snake.snake.Snake.down" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="snake.snake.Snake.extend">
+<span class="sig-name descname"><span class="pre">extend</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/snake/snake.html#Snake.extend"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#snake.snake.Snake.extend" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="snake.snake.Snake.left">
+<span class="sig-name descname"><span class="pre">left</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/snake/snake.html#Snake.left"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#snake.snake.Snake.left" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="snake.snake.Snake.move">
+<span class="sig-name descname"><span class="pre">move</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/snake/snake.html#Snake.move"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#snake.snake.Snake.move" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="snake.snake.Snake.right">
+<span class="sig-name descname"><span class="pre">right</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/snake/snake.html#Snake.right"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#snake.snake.Snake.right" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="snake.snake.Snake.up">
+<span class="sig-name descname"><span class="pre">up</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/snake/snake.html#Snake.up"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#snake.snake.Snake.up" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-snake">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-snake" title="Link to this heading"></a></h2>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="nato.html" class="btn btn-neutral float-left" title="nato package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="squirrel.html" class="btn btn-neutral float-right" title="squirrel package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, ABL.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
