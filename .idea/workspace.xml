@@ -5,9 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4d340eb-01b3-413c-b57a-8622388efd7a" name="Changes" comment="add">
-      <change afterPath="$PROJECT_DIR$/coffemachine/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PwdManager/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quiz/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classefirst/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comprehesion/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorators/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firstprojects/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flights/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mail/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nato/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snake/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/squirrel/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/environment.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/index.doctree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/.buildinfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_sources/index.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/alabaster.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/basic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/doctools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/documentation_options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/file.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/github-banner.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/language_data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/minus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/pygments.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/searchtools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/sphinx_highlight.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/genindex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/objects.inv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/searchindex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/coffemachine.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/doc/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/domain.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/main.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/modules.rst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,29 +88,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (2).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (3).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/benoit/PycharmProjects/PythonSchool&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main (1).executor": "Run",
+    "Python.main (2).executor": "Run",
+    "Python.main (3).executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/benoit/PycharmProjects/PythonSchool/classefirst",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\benoit\PycharmProjects\PythonSchool" />
-      <recent name="C:\Users\benoit\PycharmProjects\PythonSchool\flights" />
+      <recent name="C:\Users\benoit\PycharmProjects\PythonSchool\classefirst" />
+      <recent name="C:\Users\benoit\PycharmProjects\PythonSchool\decorators" />
+      <recent name="C:\Users\benoit\PycharmProjects\PythonSchool\comprehesion" />
+      <recent name="C:\Users\benoit\PycharmProjects\PythonSchool\weather" />
+      <recent name="C:\Users\benoit\PycharmProjects\PythonSchool\snake" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\benoit\PycharmProjects\PythonSchool\docs" />
@@ -202,7 +245,8 @@
       <workItem from="1726071410477" duration="8000" />
       <workItem from="1726897581021" duration="239000" />
       <workItem from="1728477068348" duration="5985000" />
-      <workItem from="1728537517712" duration="4658000" />
+      <workItem from="1728537517712" duration="5744000" />
+      <workItem from="1728646903360" duration="800000" />
     </task>
     <task id="LOCAL-00001" summary="add coffeemachine">
       <option name="closed" value="true" />
@@ -428,7 +472,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728540449810</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="add">
+      <option name="closed" value="true" />
+      <created>1728542299911</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1728542299911</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
